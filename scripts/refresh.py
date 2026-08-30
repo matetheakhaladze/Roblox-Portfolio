@@ -554,8 +554,8 @@ def render(games):
   <footer class="page-footer">Stats pulled live from the Roblox API at publish time &middot; tap a cartridge to play</footer>
 </div>
 """
-    open("cartridge_wall.html", "w", encoding="utf-8").write(page)
-    print("Rendered cartridge_wall.html:", os.path.getsize("cartridge_wall.html"), "bytes")
+    open("index.html", "w", encoding="utf-8").write(page)
+    print("Rendered index.html:", os.path.getsize("index.html"), "bytes")
 
 if __name__ == "__main__":
     main()
